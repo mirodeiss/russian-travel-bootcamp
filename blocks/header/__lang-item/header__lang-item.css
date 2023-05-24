@@ -1,0 +1,6 @@
+.header__land-item{
+    margin-right: 18px;
+}
+.header__land-item:last-child{
+    margin: 0;
+}

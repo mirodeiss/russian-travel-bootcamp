@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+    z-index: 10;
     margin: 0 auto;
     max-width: 560px;
     position: absolute;
@@ -11,4 +11,10 @@
     right: 0;
     bottom: 0 ;
     left: 0;
+}
+@media (max-width:425px){
+    .cover__content{
+        margin: 0 auto;
+        width: 288px;
+    }
 }

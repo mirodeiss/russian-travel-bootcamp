@@ -10,8 +10,9 @@
     background-position: center;
     background-size: cover;
     text-decoration: none;
+    overflow: hidden;
 }
-.cover__overlay:before{
+.cover__overlay::after{
     content:"";
     display: block;
     width: 100%;
@@ -19,10 +20,11 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #2a2c2f;
+    background-color: black;
     opacity:.3;
     transition:.335s ease-in-out;
 }
-.cover__overlay::before{
+.cover__overlay:hover{
     opacity: .8;
+    transition: 1s;
 }
