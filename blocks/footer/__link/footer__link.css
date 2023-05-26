@@ -9,7 +9,10 @@
     padding-right: 18px;
 }
 .footer__link:hover{
-    opacity: .5;
+    opacity: 1;
+}
+.footer__link:last-child{
+    padding-right: 0;
 }
 @media screen and (max-width:767px){
     .footer__link{
