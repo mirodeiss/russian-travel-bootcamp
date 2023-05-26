@@ -3,8 +3,4 @@
     font-size: 12px;
     line-height: 18px;
     color: white;
-    margin: 0 0 2px 0;
-}
-.intro__list-item:last-child{
-    margin: 0 0 0 0;
 }
