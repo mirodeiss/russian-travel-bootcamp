@@ -4,10 +4,10 @@
     line-height: 18px;
     text-decoration: none;
     color: white;
-    transition: .335s ease-in-out;
+    transition: .2s ease-in-out;
 }
 .footer__link:hover{
-    opacity: 1;
+    opacity: 0.8;
 }
 @media (max-width:425px){
     .footer__link{
