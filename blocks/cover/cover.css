@@ -1,10 +1,24 @@
 .cover{
-    margin: 0 auto ;
+    margin: 92px auto 0 auto;
     max-width: 1184px;
+    position: relative;
 
 }
-@media (min-width:769px) and (max-width:1024px){
+@media (max-width:1279px){
     .cover{
-        max-width: 100%;
+        max-width: 1024px;
+        width: 100%;
+    }
+}
+@media (max-width:1023px){
+    .cover{
+        margin: 90px auto 0 auto;
+        max-width: 768px;
+    }
+}
+@media (max-width:767px){
+    .cover{
+        margin: 66px auto 0 auto;
+        max-width: 320px;
     }
 }
