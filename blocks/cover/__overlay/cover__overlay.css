@@ -2,6 +2,7 @@
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     text-decoration: none;
     width: 100%;
     min-height: 740px;
