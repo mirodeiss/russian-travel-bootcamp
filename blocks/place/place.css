@@ -10,7 +10,7 @@
 }
 @media (max-width:1279px){
     .place{
-        grid-template-columns: 449px 1fr;
+        grid-template-columns: 440px 1fr;
         gap: 48px 32px;
         margin-bottom: 84px;
     }
